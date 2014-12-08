@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+		<title></title>
+	</head>
+	<body class="text-center">
+		<h1>Audio Libro de Cuentos infantiles</h1>
+
+		{% for story in stories %}
+		<h3>{{story.title}}</h3>
+		{% endfor%}
+	</body>
+</html>
