@@ -6,5 +6,6 @@ urlpatterns = patterns('core.views',
     # url(r'^blog/', include('blog.urls')),
 
 	url(r'^$', 'index',name="index"),
+    url(r'^home$', 'home',name="home"),
 
 )
